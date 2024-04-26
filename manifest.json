@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Extensions",
+  "description": "Base Level Extension for weather information",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab", "storage"]
+  // "background": {
+  // "service_worker": "background.js"
+  // },
+  //   "icons": {
+  //     "16": "icon16.png",
+  //     "48": "icon48.png",
+  //     "128": "icon128.png"
+  //   },
+  // "content_security_policy": {
+  //   "extension_pages": "script-src 'self'; object-src 'self'"
+  // }
+}
