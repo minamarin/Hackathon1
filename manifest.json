@@ -1,10 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Weather Extensions",
+  "name": "Weather Extension",
   "description": "Base Level Extension for weather information",
   "version": "1.0",
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "weather.png"
   },
   "permissions": ["activeTab", "storage"]
   // "background": {
